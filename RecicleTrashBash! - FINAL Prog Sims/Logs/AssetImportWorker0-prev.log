@@ -15,7 +15,7 @@ C:/Users/arian/desktop/RTBFixtFin/RecicleTrashBash-FIXTFIN/RecicleTrashBash! - F
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61705
+54031
 Successfully changed project path to: C:/Users/arian/desktop/RTBFixtFin/RecicleTrashBash-FIXTFIN/RecicleTrashBash! - FINAL Prog Sims
 C:/Users/arian/desktop/RTBFixtFin/RecicleTrashBash-FIXTFIN/RecicleTrashBash! - FINAL Prog Sims
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,9 +49,9 @@ C:/Users/arian/desktop/RTBFixtFin/RecicleTrashBash-FIXTFIN/RecicleTrashBash! - F
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18556] Host "[IP] 10.0.0.53 [Port] 0 [Flags] 2 [Guid] 206380251 [EditorId] 206380251 [Version] 1048832 [Id] WindowsEditor(7,ARIANA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20016] Host "[IP] 10.0.0.53 [Port] 0 [Flags] 2 [Guid] 2957610632 [EditorId] 2957610632 [Version] 1048832 [Id] WindowsEditor(7,ARIANA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18556] Host "[IP] 10.0.0.53 [Port] 0 [Flags] 2 [Guid] 206380251 [EditorId] 206380251 [Version] 1048832 [Id] WindowsEditor(7,ARIANA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20016] Host "[IP] 10.0.0.53 [Port] 0 [Flags] 2 [Guid] 2957610632 [EditorId] 2957610632 [Version] 1048832 [Id] WindowsEditor(7,ARIANA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
@@ -70,45 +70,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.011846 seconds.
-- Loaded All Assemblies, in  0.368 seconds
+Registered in 0.010466 seconds.
+- Loaded All Assemblies, in  0.373 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.286 seconds
-Domain Reload Profiling: 652ms
-	BeginReloadAssembly (116ms)
+- Finished resetting the current domain, in  0.292 seconds
+Domain Reload Profiling: 663ms
+	BeginReloadAssembly (120ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (66ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (64ms)
 	LoadAllAssembliesAndSetupDomain (143ms)
-		LoadAssemblies (114ms)
+		LoadAssemblies (117ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (140ms)
-			TypeCache.Refresh (139ms)
-				TypeCache.ScanAssembly (126ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (125ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (286ms)
+	FinalizeReload (293ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (231ms)
+		SetupLoadedEditorAssemblies (233ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (159ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (163ms)
 			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -117,52 +117,52 @@ Domain Reload Profiling: 652ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.238 seconds
+- Loaded All Assemblies, in  0.241 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.349 seconds
-Domain Reload Profiling: 584ms
-	BeginReloadAssembly (157ms)
+- Finished resetting the current domain, in  0.356 seconds
+Domain Reload Profiling: 595ms
+	BeginReloadAssembly (159ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
+		CreateAndSetChildDomain (24ms)
 	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (11ms)
-		LoadAssemblies (94ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (13ms)
+		LoadAssemblies (96ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (8ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (1ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (2ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (349ms)
+	FinalizeReload (357ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (223ms)
+		SetupLoadedEditorAssemblies (225ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (31ms)
-			ProcessInitializeOnLoadAttributes (147ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (148ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
 			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 110 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7 unused Assets / (338.6 KB). Loaded Objects now: 581.
-Memory consumption went from 60.8 MB to 60.5 MB.
-Total: 2.276000 ms (FindLiveObjects: 0.044700 ms CreateObjectMapping: 0.006900 ms MarkObjects: 2.088500 ms  DeleteObjects: 0.135100 ms)
+Unloading 111 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (338.4 KB). Loaded Objects now: 585.
+Memory consumption went from 61.2 MB to 60.9 MB.
+Total: 2.365300 ms (FindLiveObjects: 0.082100 ms CreateObjectMapping: 0.008900 ms MarkObjects: 2.160800 ms  DeleteObjects: 0.112200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
@@ -180,241 +180,212 @@ AssetImportParameters requested are different than current active one (requested
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 476093.370829 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Textures
-  artifactKey: Guid(7315e0f7ad452c440858d4f7eedf43c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Textures using Guid(7315e0f7ad452c440858d4f7eedf43c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9a8a76672ece88389741643ca4976596') in 0.003069 seconds
+  Time since last request: 485007.546868 seconds.
+  path: Assets/FastMesh/Prefabs
+  artifactKey: Guid(bab8af0c5586b7543b56113df45829d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs using Guid(bab8af0c5586b7543b56113df45829d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c19605c91bfc7a7a9c4a9841c26bcdb0') in 0.003433 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 6.176943 seconds.
-  path: Assets/Low Poly 3D Garbage & Tow Trucks
-  artifactKey: Guid(109e3c2b24d831f47b8c5254d323dee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly 3D Garbage & Tow Trucks using Guid(109e3c2b24d831f47b8c5254d323dee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8b374fe1f1fae006e9a93196989ca0ee') in 0.000565 seconds
+  Time since last request: 0.656949 seconds.
+  path: Assets/FastMesh/Prefabs/Park
+  artifactKey: Guid(24acf937335097f43880b4669eddc8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Park using Guid(24acf937335097f43880b4669eddc8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3d0bf6b35f05decfc027b16868812cc4') in 0.000469 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 2.149518 seconds.
-  path: Assets/Low Poly 3D Garbage & Tow Trucks/Textures
-  artifactKey: Guid(af8624d89c7018b468a14f30f0a438fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly 3D Garbage & Tow Trucks/Textures using Guid(af8624d89c7018b468a14f30f0a438fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '78c3751026646586299e23e4c2731982') in 0.000709 seconds
+  Time since last request: 0.075986 seconds.
+  path: Assets/FastMesh/Prefabs/Park/Park-Arch1.prefab
+  artifactKey: Guid(65e74ded8f42a2b498fc163da0af872d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Park/Park-Arch1.prefab using Guid(65e74ded8f42a2b498fc163da0af872d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c96091bf60201a61b06fff689d2b4655') in 0.149341 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 0.094907 seconds.
-  path: Assets/Low Poly 3D Garbage & Tow Trucks/Textures/Garbage_Truck.png
-  artifactKey: Guid(ac419086ecee6794cb5b8426282699dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly 3D Garbage & Tow Trucks/Textures/Garbage_Truck.png using Guid(ac419086ecee6794cb5b8426282699dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FastMesh/Prefabs/Park/Park-Bench3.prefab
+  artifactKey: Guid(451b4a4baaec04849a6e9f4d39fee7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Park/Park-Bench3.prefab using Guid(451b4a4baaec04849a6e9f4d39fee7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a623ce48a4766cd28db6e2dd650fcdbf') in 0.068932 seconds
+ -> (artifact id: '8a0fa582ae372b11e7edb16386ef0ad6') in 0.010894 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 2.387817 seconds.
-  path: Assets/Low Poly 3D Garbage & Tow Trucks/Meshes
-  artifactKey: Guid(02df0b5cfa8165f4cb8e9f26f770c573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly 3D Garbage & Tow Trucks/Meshes using Guid(02df0b5cfa8165f4cb8e9f26f770c573) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6b8bef6eb04e6a6c7e07e1fbb532cf8f') in 0.000861 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/FastMesh/Prefabs/Park/Park-Bench8.prefab
+  artifactKey: Guid(c828ff232af81ef48afaa8333f008209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Park/Park-Bench8.prefab using Guid(c828ff232af81ef48afaa8333f008209) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd25a5d249645e89d164d9f1bfe1221b8') in 0.013792 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 0.072181 seconds.
-  path: Assets/Low Poly 3D Garbage & Tow Trucks/Meshes/Garbage_Truck.FBX
-  artifactKey: Guid(c33487a0fa8a1924daff3d8be12d59ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly 3D Garbage & Tow Trucks/Meshes/Garbage_Truck.FBX using Guid(c33487a0fa8a1924daff3d8be12d59ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FastMesh/Prefabs/Park/Park-Arch3.prefab
+  artifactKey: Guid(de29517dbb57ac34d97361c3b1002527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Park/Park-Arch3.prefab using Guid(de29517dbb57ac34d97361c3b1002527) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7bfe776a76f4399b6d9195c135b45224') in 0.174483 seconds
+ -> (artifact id: '4c9c59d87c75fb7b158828cfd9d7b3fd') in 0.048302 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 31
+Number of asset objects unloaded after import = 28
 ========================================================================
 Received Import Request.
-  Time since last request: 940.774748 seconds.
-  path: Assets/Low Poly 3D Garbage & Tow Trucks/PostProcessing/Textures
-  artifactKey: Guid(e15c29a7abfa52743a8cb7714389c3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly 3D Garbage & Tow Trucks/PostProcessing/Textures using Guid(e15c29a7abfa52743a8cb7714389c3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1926906a2efbcd900329ab4a02666ad2') in 0.000940 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/FastMesh/Prefabs/Park/Park-Bench9.prefab
+  artifactKey: Guid(592a82aaf856e3547afba903ee49432a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Park/Park-Bench9.prefab using Guid(592a82aaf856e3547afba903ee49432a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b3b173ce31bc1df29a653ef7c9c77552') in 0.009074 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 7.152294 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ae5280ad91af67e2a353905758f96678') in 0.000989 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/FastMesh/Prefabs/Park/Park-Bench7.prefab
+  artifactKey: Guid(4686be0e68db67543bd29453ddbb89fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Park/Park-Bench7.prefab using Guid(4686be0e68db67543bd29453ddbb89fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c4bb4a33d955f3c478b4a5b0cd6bc918') in 0.008905 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 22
 ========================================================================
 Received Import Request.
-  Time since last request: 9.039276 seconds.
-  path: Assets/Piso_grass.mat
-  artifactKey: Guid(3a66b280e910acd4995ffe804da85f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Piso_grass.mat using Guid(3a66b280e910acd4995ffe804da85f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FastMesh/Prefabs/Park/Park-Bench2.prefab
+  artifactKey: Guid(2ec39e1ba41458541a002d5f4cce3dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Park/Park-Bench2.prefab using Guid(2ec39e1ba41458541a002d5f4cce3dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3af55693b4ccbec192e3c95cd9e042ac') in 0.029491 seconds
+ -> (artifact id: '9a9008c1cdbfff4b07f769f6655127ab') in 0.008044 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 74.536368 seconds.
-  path: Assets/Piso_grass.mat
-  artifactKey: Guid(3a66b280e910acd4995ffe804da85f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Piso_grass.mat using Guid(3a66b280e910acd4995ffe804da85f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '36535dd070ef251d6d6e71c152e540a3') in 0.008469 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 21.456145 seconds.
-  path: Assets/Food Pack-Demo/Texture/Texture.png
-  artifactKey: Guid(59d7934043ff72648a863aeb0aecd606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Food Pack-Demo/Texture/Texture.png using Guid(59d7934043ff72648a863aeb0aecd606) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '188805071a29caf4dfaf28bf2bf2b738') in 0.008265 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 4.697463 seconds.
-  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_FlagGreen.mat
-  artifactKey: Guid(0acfc71c325c54b92add0b07097b6c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_FlagGreen.mat using Guid(0acfc71c325c54b92add0b07097b6c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3499ed29f4e20905b733c24bcab551cc') in 0.008520 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.028748 seconds.
-  path: Assets/Food Pack-Demo/Prefabs with colliders/Bell pepper green.prefab
-  artifactKey: Guid(cb83f814934cfc140b16be0112da5872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Food Pack-Demo/Prefabs with colliders/Bell pepper green.prefab using Guid(cb83f814934cfc140b16be0112da5872) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7c6de6efa5204d2ec2c39aba48dc50ad') in 0.020363 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Food Pack-Demo/Mesh Collider/Bell pepper green slice_collider.fbx
-  artifactKey: Guid(4fc4462b1842d1b40951cea9bd975225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Food Pack-Demo/Mesh Collider/Bell pepper green slice_collider.fbx using Guid(4fc4462b1842d1b40951cea9bd975225) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2f57536d8d27e2f35d8e0783184ab8d7') in 0.027616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Food Pack-Demo/Mesh/Bell pepper green.fbx
-  artifactKey: Guid(b2bd321d9d4d86f4abfd6229b2605d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Food Pack-Demo/Mesh/Bell pepper green.fbx using Guid(b2bd321d9d4d86f4abfd6229b2605d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  path: Assets/FastMesh/Prefabs/Park/Park-Bench4.prefab
+  artifactKey: Guid(44662cab124fe8d48900580f3e802342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Park/Park-Bench4.prefab using Guid(44662cab124fe8d48900580f3e802342) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1af2d57e56bc110a4537f3eef77f43ee') in 0.014851 seconds
+ -> (artifact id: '12acdbd824457b872305b76bbfd7b850') in 0.009877 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Low Poly 3D Garbage & Tow Trucks/PostProcessing/Resources/Shaders/ColorGrading.cginc
-  artifactKey: Guid(26a62c2e30be83547bdfa9fe837165e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly 3D Garbage & Tow Trucks/PostProcessing/Resources/Shaders/ColorGrading.cginc using Guid(26a62c2e30be83547bdfa9fe837165e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ab7d5114e3a8c081f7da1e385a045604') in 0.002818 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.510039 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Grass/grass 1.prefab
-  artifactKey: Guid(d9c6727f3721c5a4086ad394d37bb744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Grass/grass 1.prefab using Guid(d9c6727f3721c5a4086ad394d37bb744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FastMesh/Prefabs/Park/Park-Bench10.prefab
+  artifactKey: Guid(e7833c48f6dbe6d41b3994fc83029a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Park/Park-Bench10.prefab using Guid(e7833c48f6dbe6d41b3994fc83029a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ec686e3a4093016d7664b8af44c29850') in 0.011366 seconds
+ -> (artifact id: 'ef5d30a571110d37ffd91c9dfaa7f550') in 0.008149 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Grass/grass 2.prefab
-  artifactKey: Guid(d08851aeacbadfa42a2b661f2170de25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Grass/grass 2.prefab using Guid(d08851aeacbadfa42a2b661f2170de25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  path: Assets/FastMesh/Prefabs/Park/Park-Bin2.prefab
+  artifactKey: Guid(7acb94a06869d4f4bab5a7c5f4b5d6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Park/Park-Bin2.prefab using Guid(7acb94a06869d4f4bab5a7c5f4b5d6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6e70cca158a09855d63257a520b3ba7b') in 0.009336 seconds
+ -> (artifact id: 'f48ae89804775f05043e450311baae0c') in 0.008262 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 27
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Parks And Nature Pack/DataSource/Materials/GrassD_mt1.mat
-  artifactKey: Guid(30e3b390e03211e4aac7b371b0b29332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Parks And Nature Pack/DataSource/Materials/GrassD_mt1.mat using Guid(30e3b390e03211e4aac7b371b0b29332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FastMesh/Prefabs/Park/Park-Bench1.prefab
+  artifactKey: Guid(5df341e671159254b84b229fcbf10f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Park/Park-Bench1.prefab using Guid(5df341e671159254b84b229fcbf10f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '27fa06767b72396bd59da0e862dbfaa3') in 0.008421 seconds
+ -> (artifact id: '02741d280606ffc802b165438ca7bad5') in 0.006978 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Models/Grass/grass 4.fbx
-  artifactKey: Guid(97af63e2ae091c54db92acda3678e833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Models/Grass/grass 4.fbx using Guid(97af63e2ae091c54db92acda3678e833) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FastMesh/Prefabs/Park/Park-Bin4.prefab
+  artifactKey: Guid(67c2c97da2883c6419927633651945b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Park/Park-Bin4.prefab using Guid(67c2c97da2883c6419927633651945b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'abfe2aa013e0ef3c0ed1fee03ff79407') in 0.016979 seconds
+ -> (artifact id: '70f2839b51ae016c06507a05666a4a44') in 0.007185 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Models/Grass/grass 2.fbx
-  artifactKey: Guid(8253ca105f4ae554994c59ec48e47051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Models/Grass/grass 2.fbx using Guid(8253ca105f4ae554994c59ec48e47051) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FastMesh/Prefabs/Park/Park-Bin1.prefab
+  artifactKey: Guid(16550d5991821b045979786fe9515088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Park/Park-Bin1.prefab using Guid(16550d5991821b045979786fe9515088) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8a6aa8c7f47273b93affa5f3ff961378') in 0.016268 seconds
+ -> (artifact id: '7cfde2ceebe3fa13b1446e25514f5a9d') in 0.007077 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 3.121340 seconds.
-  path: Assets/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Base_Color.png
-  artifactKey: Guid(b900361e13e6eaa44963cb851faf3ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Base_Color.png using Guid(b900361e13e6eaa44963cb851faf3ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FastMesh/Prefabs/Park/Park-Bin3.prefab
+  artifactKey: Guid(bfd69cccd8dca70459de633a1ede4798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Park/Park-Bin3.prefab using Guid(bfd69cccd8dca70459de633a1ede4798) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'fda8af9343a78ec4305d84805d9396bd') in 0.012337 seconds
+ -> (artifact id: '3862c1e907db5c396f9e770919804a84') in 0.011481 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 35
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Roughness.png
-  artifactKey: Guid(7c71c756b680c1a47b27345dccbbc51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Roughness.png using Guid(7c71c756b680c1a47b27345dccbbc51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FastMesh/Prefabs/Park/Park-Bench5.prefab
+  artifactKey: Guid(6608d8128a90e5f4a821943d480dd45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Park/Park-Bench5.prefab using Guid(6608d8128a90e5f4a821943d480dd45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0370bc535342793c07d469c70aa49e8a') in 0.009310 seconds
+ -> (artifact id: 'db7193f62fc647b1df487843ae8d75b9') in 0.008733 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 7.967064 seconds.
+  path: Assets/FastMesh/Prefabs/Park/Park-Bin6.prefab
+  artifactKey: Guid(a097589a867bb7f44aec2bd4dc0eb20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Park/Park-Bin6.prefab using Guid(a097589a867bb7f44aec2bd4dc0eb20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7581b86e14a7f91d693d8f52b12cead1') in 0.032428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 1.263011 seconds.
+  path: Assets/FastMesh/Prefabs/Park/Park-Bin10.prefab
+  artifactKey: Guid(88c03336477744545bf87b1345a82c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Park/Park-Bin10.prefab using Guid(88c03336477744545bf87b1345a82c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd74f9c1af9a234a8282a37046a579a6c') in 0.026813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.387182 seconds.
+  path: Assets/FastMesh/Prefabs/Park/Park-Fence1.prefab
+  artifactKey: Guid(229b2b685305d3a4b9c8bdbb569376e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Park/Park-Fence1.prefab using Guid(229b2b685305d3a4b9c8bdbb569376e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eafe11b4368d561960d6224139b40fb1') in 0.019857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.769382 seconds.
+  path: Assets/FastMesh/Prefabs/Park/Park-Fence5.prefab
+  artifactKey: Guid(983286dfea5163743836f3cb8970ca65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Park/Park-Fence5.prefab using Guid(983286dfea5163743836f3cb8970ca65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c6fbf680141a28765a8860325c0a8183') in 0.021970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
