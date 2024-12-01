@@ -405,6 +405,7 @@
 "Assets/Low Poly 3D Garbage & Tow Trucks/PostProcessing/Runtime/Utils/RenderTextureFactory.cs"
 "Assets/Low Poly 3D Garbage & Tow Trucks/PostProcessing/Utilities/CustomMotionTexture/ExampleWheelController.cs"
 "Assets/Scripts/MainMenu.cs"
+"Assets/Scripts/TiendaCompra.cs"
 -langversion:9.0
 /deterministic
 /optimize+
