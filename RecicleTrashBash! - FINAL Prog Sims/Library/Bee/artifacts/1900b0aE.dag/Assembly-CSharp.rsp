@@ -413,6 +413,7 @@
 "Assets/Parque/Spawner.cs"
 "Assets/Scripts/Basura.cs"
 "Assets/Scripts/Funda.cs"
+"Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Inventario.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/Pinza.cs"
