@@ -412,8 +412,10 @@
 "Assets/Parque/Spawner.cs"
 "Assets/Scripts/Basura.cs"
 "Assets/Scripts/Clasifica.cs"
+"Assets/Scripts/Funda.cs"
 "Assets/Scripts/Inventario.cs"
 "Assets/Scripts/MainMenu.cs"
+"Assets/Scripts/Pinza.cs"
 "Assets/Scripts/RecogerBasura.cs"
 "Assets/Scripts/TiendaCompra.cs"
 -langversion:9.0
