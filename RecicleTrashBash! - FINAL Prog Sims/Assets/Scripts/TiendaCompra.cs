@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TiendaCompra : MonoBehaviour
 {
@@ -72,6 +73,4 @@ public class TiendaCompra : MonoBehaviour
     {
         monedasText.text = $"Monedas: {monedas}";
     }
-
-
 }
