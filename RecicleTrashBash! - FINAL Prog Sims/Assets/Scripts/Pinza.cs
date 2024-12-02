@@ -17,6 +17,19 @@ public class Pinza : MonoBehaviour
     public Material materialDorado;
     public Material materialAmatista;
 
+    public Funda funda;  // Referencia a la funda
+
+    public void RecogerObjeto(GameObject basura)
+    {
+        if (funda != null)
+        {
+            funda.RecogerBasura(basura);
+        }
+        else
+        {
+            Debug.Log("No tienes la funda.");
+        }
+    }
     void Start()
     {
         // Cargar el nivel guardado desde PlayerPrefs

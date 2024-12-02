@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class TiendaCompra : MonoBehaviour
 {
-    public Text monedasText; // UI para mostrar las monedas del jugador
+    public TMP_Text monedasText; // UI para mostrar las monedas del jugador
     public Funda funda;       // Referencia a la funda para aplicar las mejoras
     private int monedas;
 
