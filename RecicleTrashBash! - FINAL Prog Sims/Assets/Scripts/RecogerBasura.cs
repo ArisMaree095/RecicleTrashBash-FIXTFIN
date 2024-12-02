@@ -10,7 +10,6 @@ public class RecogerBasura : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        // Detecta si el objeto tiene los tags correspondientes
         if (other.CompareTag("Organico") || other.CompareTag("Metal") || other.CompareTag("Vidrio"))
         {
             objectToGrab = other.gameObject;
