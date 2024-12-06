@@ -7,6 +7,9 @@ TagManager:
   - Organico
   - Metal
   - Vidrio
+  - Basura
+  - Ground
+  - Coin
   layers:
   - Default
   - TransparentFX

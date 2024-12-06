@@ -14,7 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Parque.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Tienda.unity
     guid: 2c822ce9244d03e43871b03ffbf292a1
+  - enabled: 0
+    path: Assets/Scenes/Metal.unity
+    guid: 344f9e9ac9fdbd947b5467cf108db18b
+  - enabled: 0
+    path: Assets/Scenes/Vidrio.unity
+    guid: f60ce69d0ee62c84b99cef3ea5cb4b58
   m_configObjects: {}

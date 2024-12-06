@@ -436,8 +436,9 @@ GameObject:
   - component: {fileID: 107408848}
   - component: {fileID: 107408850}
   - component: {fileID: 107408849}
+  - component: {fileID: 107408851}
   m_Layer: 5
-  m_Name: Banco
+  m_Name: DineroText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -482,7 +483,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Banco:'
+  m_text: 'Monedas: 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 835f21553b2a2e14387636cdd6866918, type: 2}
   m_sharedMaterial: {fileID: 791982842952604104, guid: 835f21553b2a2e14387636cdd6866918, type: 2}
@@ -545,7 +546,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -97.07199, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -559,6 +560,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 107408847}
   m_CullTransparentMesh: 1
+--- !u!114 &107408851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107408847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83875bf2e94edb244a9350dad457e60b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinText: {fileID: 107408849}
+  Coin: 10
 --- !u!1 &111588055
 GameObject:
   m_ObjectHideFlags: 0
@@ -788,13 +803,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 205697196}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 853, y: 623, z: -904}
+  m_LocalRotation: {x: -0.019800076, y: 0.00030489278, z: 0.0000060380835, w: 0.99980396}
+  m_LocalPosition: {x: 1019, y: 623, z: -1155}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -2.269, y: 0.035, z: 0}
 --- !u!82 &205697200
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1421,52 +1436,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 715423632}
   m_CullTransparentMesh: 1
---- !u!1 &751158559
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 751158561}
-  - component: {fileID: 751158560}
-  m_Layer: 0
-  m_Name: TiendaManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &751158560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 751158559}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a58d1034d26f9343ba59e66ef2d1199, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  monedasText: {fileID: 0}
-  funda: {fileID: 0}
---- !u!4 &751158561
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 751158559}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1321.686, y: 339.85388, z: 1108.793}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &764464673
 GameObject:
   m_ObjectHideFlags: 0
@@ -2081,7 +2050,6 @@ GameObject:
   - component: {fileID: 1281426451}
   - component: {fileID: 1281426450}
   - component: {fileID: 1281426449}
-  - component: {fileID: 1281426453}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2176,20 +2144,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1281426453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1281426448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a58d1034d26f9343ba59e66ef2d1199, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  monedasText: {fileID: 0}
-  funda: {fileID: 0}
 --- !u!1 &1299997270
 GameObject:
   m_ObjectHideFlags: 0
@@ -2693,9 +2647,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1281426448}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: Button
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3312,4 +3266,3 @@ SceneRoots:
   - {fileID: 205697199}
   - {fileID: 1281426452}
   - {fileID: 111588058}
-  - {fileID: 751158561}

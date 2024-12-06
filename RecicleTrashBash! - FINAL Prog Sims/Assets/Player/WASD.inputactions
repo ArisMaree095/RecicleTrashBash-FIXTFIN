@@ -15,7 +15,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Saltar",
+                    "name": "Botar",
                     "type": "Button",
                     "id": "4bbca2df-63ae-4ca3-af12-410b094811b7",
                     "expectedControlType": "Button",
@@ -72,11 +72,11 @@
                 {
                     "name": "",
                     "id": "5684f60c-cd17-4e82-8754-10d4c90a5949",
-                    "path": "<Keyboard>/space",
+                    "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Saltar",
+                    "action": "Botar",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -9,11 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1285433650885660739}
-  - component: {fileID: 7615643201641939834}
-  - component: {fileID: 709544591811201232}
+  - component: {fileID: 2791279494054004108}
+  - component: {fileID: 361831533165719755}
   m_Layer: 0
   m_Name: Metal
-  m_TagString: Metal
+  m_TagString: Basura
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34,30 +34,7 @@ Transform:
   - {fileID: 1380014919068960931}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &7615643201641939834
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7843164231326258289}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.17
-  m_Height: 0.68
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.26, z: 0}
---- !u!114 &709544591811201232
+--- !u!114 &2791279494054004108
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -66,10 +43,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 7843164231326258289}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbe3dce97faf3a74488a428ec26f6d51, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d8e1775b33c7834d8947de9e8e3a610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipo: 0
+--- !u!114 &361831533165719755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7843164231326258289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfa085b3d16c27841961d1394eab60b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  funda: {fileID: 0}
+  rb: {fileID: 0}
+  coll: {fileID: 0}
 --- !u!1001 &3144519833376648047
 PrefabInstance:
   m_ObjectHideFlags: 0

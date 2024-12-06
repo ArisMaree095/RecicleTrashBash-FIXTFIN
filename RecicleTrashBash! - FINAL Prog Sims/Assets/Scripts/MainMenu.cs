@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-  /*  public void PlayGame()
+   public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); //Carga el nivel
     }
@@ -13,7 +13,5 @@ public class MainMenu : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
-    }*/
-//Script para el movimiento de la 
-
+    }
 }

@@ -4,10 +4,10 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - materialRojo: {fileID: 2100000, guid: bb319d5dc09f6a448bf1d815bb688aed, type: 2}
-  - materialAzul: {fileID: 2100000, guid: e7116bd6dc35454468d9da7ed742d9ff, type: 2}
-  - materialDorado: {fileID: 2100000, guid: 53338aa7b98e1de40a8018f90860a844, type: 2}
-  - materialAmatista: {fileID: 2100000, guid: 7d302f8440b9a8b4d822d8328039c9c6, type: 2}
+  - MaterialRojo: {fileID: 2100000, guid: bb319d5dc09f6a448bf1d815bb688aed, type: 2}
+  - MaterialAzul: {fileID: 2100000, guid: e7116bd6dc35454468d9da7ed742d9ff, type: 2}
+  - MaterialDorado: {fileID: 2100000, guid: 53338aa7b98e1de40a8018f90860a844, type: 2}
+  - MaterialAmatista: {fileID: 2100000, guid: 7d302f8440b9a8b4d822d8328039c9c6, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

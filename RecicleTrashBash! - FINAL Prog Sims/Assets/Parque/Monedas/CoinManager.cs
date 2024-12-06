@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
+using TMPro;
 
 public class CoinManager : MonoBehaviour
 {
-    public Text coinText; // Asigna el texto de la UI aquí
+    public TMP_Text coinText; // Asigna el texto de la UI aquí
     private int coinCount = 0; // Contador de monedas
     private int trashCollected = 0; // Contador de basura recogida
 
